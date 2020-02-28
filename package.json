@@ -13,12 +13,17 @@
   "homepage": "./",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "cross-env": "^6.0.3",
     "electron-is-dev": "^1.1.0",
+    "jquery": "^3.4.1",
+    "moment": "^2.24.0",
+    "mongodb": "^3.5.4",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "yarn": "^1.22.0"
   },
   "scripts": {
     "start-react": "react-scripts start",
