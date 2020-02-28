@@ -7,7 +7,7 @@
 ## Usage
 1. Clone this repository.
 ```
-git clone https://github.com/
+git clone https://github.com/SushmaRamakrishna/electronreact_boilerplate.git
 ```
 2. If you havent already, install Yarn globally.
 ```
