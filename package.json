@@ -19,10 +19,10 @@
     "jquery": "^3.4.1",
     "moment": "^2.24.0",
     "mongodb": "^3.5.4",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0",
+    "react-scripts": "^3.4.0",
     "yarn": "^1.22.0"
   },
   "scripts": {
@@ -50,9 +50,9 @@
     ]
   },
   "devDependencies": {
-    "concurrently": "^5.0.0",
-    "electron": "^7.1.0",
-    "electron-builder": "^22.1.0",
+    "concurrently": "^5.1.0",
+    "electron": "^7.1.14",
+    "electron-builder": "^22.3.2",
     "wait-on": "^3.3.0"
   }
 }
