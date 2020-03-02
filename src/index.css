@@ -14,7 +14,7 @@ code {
 
 header a,
 footer a {
-  color: white;
+  color: white; 
 }
 
 footer {
@@ -26,3 +26,4 @@ footer {
   background-color: #377bb5 !important;
   border: inherit;
 }
+ 
