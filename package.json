@@ -12,6 +12,7 @@
   "main": "public/electron.js",
   "homepage": "./",
   "private": true,
+  "proxy":"http://localhost:8000/",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "cross-env": "^6.0.3",
@@ -23,6 +24,7 @@
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.0",
+    "whatwg-fetch": "^3.0.0",
     "yarn": "^1.22.0"
   },
   "scripts": {

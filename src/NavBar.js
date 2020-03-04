@@ -7,14 +7,8 @@ const NavBar = () => (
             <li>
                 <Link to="/">Home</Link>
             </li>
-             <li>
-                <Link to="/about">About </Link>
-            </li>
             <li>
-                <Link to="/deduct-credits">Deduction & Credits</Link>
-            </li>
-            <li>
-                <Link to="/health-insurance">HealthInsurance</Link>
+                <Link to="/about">About</Link>
             </li>
             <li>
                 <Link to="/articles-list">Articles</Link>
@@ -23,4 +17,4 @@ const NavBar = () => (
     </nav>
 );
 
-export default NavBar
+export default NavBar;

@@ -4,7 +4,7 @@ const About = () => {
     return ( 
         <>      
         <div className="about">
-            <p>We just need a few details to get us rolling</p>
+         
             <div className="container mt-3">          
                     <form >
                         <p className="lead">We just need a few details to get us rolling.</p>         

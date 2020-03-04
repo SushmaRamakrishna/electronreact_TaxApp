@@ -2,13 +2,12 @@ import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Switch
+  Switch,
 } from 'react-router-dom';
-import HomePage from './pages/HomePage'
+import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
-import DeductCreditsPage from './pages/DeductCreditsPage';
-import HealthInsurancePage from './pages/HealthInsurancePage';
 import ArticlesListPage from './pages/ArticlesListPage';
+import ArticlePage from './pages/ArticlePage';
 import NotFoundPage from './pages/NotFoundPage';
 import NavBar from './NavBar';
 import './App.css';
@@ -23,9 +22,8 @@ class App extends Component {
             <Switch>
               <Route path="/" component={HomePage} exact />
               <Route path="/about" component={AboutPage} />
-              <Route path="/deduct-credits" component={DeductCreditsPage} />
-              <Route path="/health-insurance" component={HealthInsurancePage} />
               <Route path="/articles-list" component={ArticlesListPage} />
+              <Route path="/article/:name" component={ArticlePage} />
               <Route component={NotFoundPage} />
             </Switch>
           </div>
@@ -36,5 +34,3 @@ class App extends Component {
 }
 
 export default App;
-
-
