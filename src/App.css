@@ -100,3 +100,10 @@ nav a:hover {
   border-bottom: 2px solid black;
   padding: 16px;
 }
+
+.errors {
+  color: red;
+  font: red;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+}
