@@ -1,12 +1,13 @@
 import React from 'react';
+import PreviousTaxChoice from '../components/PreviousTaxChoice';
 
-const Personal = () => (
+const Personal = () => {
+    
+    return (
     <>   
-    <div>
-       
-        <h2>Hello, Let's get your biggest refund possible!</h2>
-    </div>
+   <PreviousTaxChoice />
     </>
-);
+   );
+}
 
 export default Personal;

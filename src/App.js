@@ -10,6 +10,8 @@ import ContactInfoPage from './pages/ContactInfoPage';
 import ArticlesListPage from './pages/ArticlesListPage';
 import ArticlePage from './pages/ArticlePage';
 import NotFoundPage from './pages/NotFoundPage';
+import MaritalPage from './pages/MaritalPage';
+import AboutPage from './pages/AboutPage';
 import NavBar from './NavBar';
 import './App.css';
 
@@ -26,7 +28,9 @@ class App extends Component {
               <Route path="/myinfo" component={MyInfoPage} />
               <Route path="/articles-list" component={ArticlesListPage} />
               <Route path="/article/:name" component={ArticlePage} />
-               <Route path="/contactinfo/:name" component={ContactInfoPage} />
+              <Route path="/contactinfo/:name" component={ContactInfoPage} />
+              <Route path="/marital/:name" component={MaritalPage} />
+              <Route path="/about" component={AboutPage} />
               <Route component={NotFoundPage} />
             </Switch>
           </div>

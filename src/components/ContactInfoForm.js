@@ -3,11 +3,10 @@ import React from 'react';
 
 const ContactInfo = ({ userInfo }) => {
   
-
   return(
     <>
-  <h1>You reached the Contact Info Page { userInfo.firstname} { userInfo.lastname } </h1>
-
+      <h1>Next,{ userInfo.firstname} { userInfo.lastname }  let's get your contact Information? </h1>
+      
     </>
   );
 
