@@ -4,14 +4,13 @@ import 'react-image-picker/dist/index.css';
 import { Link } from 'react-router-dom';
 
 //import images from local
-import img1 from "../images/128RedImage.png";
-import img2 from '../images/128person.png';
-import img3 from '../images/128Jar.png';
-import img4 from '../images/128YellowImage.png';
-import img5 from '../images/128writepaper-ink.png';
-import img6 from '../images/128PinkImage.png';
+import img1 from "../images/128bag.png";
+import img2 from '../images/128clipboard.png';
+import img4 from '../images/128book.png';
+import img5 from '../images/128shape.png';
+
  
-const imageList = [img1, img2, img3, img4, img5, img6]
+const imageList = [img1, img2, img4, img5]
 
 class AboutMe extends Component {
      constructor(props) {
@@ -28,12 +27,12 @@ class AboutMe extends Component {
      
       render() {
           return (
-            <div class="container px-lg-5">
-            <h2>How did you do your taxes last year?</h2>
-            <ImagePicker 
+            <div class="container px-lg-2">
+            <h2>How did you do your taxes last year, please select all that applies....</h2>
+            <ImagePicker       
                     images={imageList.map((image, i) => ({src: image, value: i}))}
                     onPick={this.onPick}
-                    />                   
+                    multiple />                   
                     <Link to={`/myinfo`}>Continue</Link>
             </div>
         )
