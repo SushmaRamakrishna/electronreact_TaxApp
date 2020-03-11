@@ -1,7 +1,7 @@
 import React, {useState, useEffect } from "react"
-import ContactInfoForm from '../components/ContactInfoForm'
+import Uploadw2File from '../components/UploadW2Form';
 
-const ContactInfoPage = ({ match }) => {
+const Uploadw2 = ({ match }) => {
   const name = match.params.name;
   const [userInfo, setUserInfo] = useState('');
 
@@ -14,13 +14,12 @@ const ContactInfoPage = ({ match }) => {
     }
     fetchData();
     }, [name]);
-
-   
+    
 return (
 <>
- <ContactInfoForm userInfo={userInfo} />
+ <Uploadw2File userInfo={userInfo} />
 </>
 );
 };
 
-export default ContactInfoPage;
+export default Uploadw2;

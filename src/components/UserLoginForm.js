@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 
-const AddCustomerForm = ({taxName }) => {
+const UserLoginForm = ({taxName }) => {
     const [FirstName, setFirstname] = useState('');
     const [LastName, setLastname] = useState('');
     const [DateOfBirth, setDateOfBirth] = useState(new Date());
@@ -18,7 +18,7 @@ const AddCustomerForm = ({taxName }) => {
     let fullName= 'Welcome! to Tax App ' + FirstName + ' ' + LastName;
     
    
-    AddCustomerForm.prototypes = {
+    UserLoginForm.prototypes = {
         FirstName: PropTypes.string.isRequired,
     };
     const validateFirstname = event => {
@@ -94,7 +94,7 @@ const AddCustomerForm = ({taxName }) => {
                                 </Form.Group>
                             </Form.Row>                 
                                                
-                            <Link to={`/contactinfo/${FirstName}`}>Continue</Link>
+                            <Link to={`/uploadw2/${FirstName}`}>Continue</Link>
                            
                             <Form.Text> { fullName }</Form.Text> 
                            
@@ -105,4 +105,4 @@ const AddCustomerForm = ({taxName }) => {
 
 } 
 
-export default AddCustomerForm;
+export default UserLoginForm;

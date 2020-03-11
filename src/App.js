@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 import PersonalPage from './pages/PersonalPage';
 import MyInfoPage from './pages/MyInfoPage';
-import ContactInfoPage from './pages/ContactInfoPage';
+import UploadW2Page from './pages/Uploadw2Page';
 import ArticlesListPage from './pages/ArticlesListPage';
 import ArticlePage from './pages/ArticlePage';
 import NotFoundPage from './pages/NotFoundPage';
@@ -28,7 +28,7 @@ class App extends Component {
               <Route path="/myinfo" component={MyInfoPage} />
               <Route path="/articles-list" component={ArticlesListPage} />
               <Route path="/article/:name" component={ArticlePage} />
-              <Route path="/contactinfo/:name" component={ContactInfoPage} />
+              <Route path="/uploadw2/:name" component={UploadW2Page} />
               <Route path="/marital/:name" component={MaritalPage} />
               <Route path="/about" component={AboutPage} />
               <Route component={NotFoundPage} />
