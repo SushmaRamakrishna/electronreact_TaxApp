@@ -6,7 +6,7 @@
   "build": {
     "appId": "react.electron",
     "win": {
-      "icon": "build/icon.png"
+      "icon": "icon.png"
     }
   },
   "main": "public/electron.js",

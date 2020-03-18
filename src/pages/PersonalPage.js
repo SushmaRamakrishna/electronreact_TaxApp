@@ -5,7 +5,9 @@ const Personal = () => {
     
     return (
     <>   
-   <PreviousTaxChoice />
+   
+    <PreviousTaxChoice />
+
     </>
    );
 }

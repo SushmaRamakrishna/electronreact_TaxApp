@@ -33,7 +33,7 @@ class AboutMe extends Component {
                     images={imageList.map((image, i) => ({src: image, value: i}))}
                     onPick={this.onPick}
                     multiple />                   
-                    <Link to={`/myinfo`}>Continue</Link>
+                    <Link className="btn btn-primary float-right" to={`/myinfo`}>Continue</Link>
             </div>
         )
     }

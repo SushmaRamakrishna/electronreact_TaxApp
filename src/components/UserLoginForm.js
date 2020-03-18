@@ -94,7 +94,7 @@ const UserLoginForm = ({taxName }) => {
                                 </Form.Group>
                             </Form.Row>                 
                                                
-                            <Link to={`/uploadw2/${FirstName}`}>Continue</Link>
+                            <Link class="btn btn-primary" to={`/uploadw2/${FirstName}`}>Continue</Link>
                            
                             <Form.Text> { fullName }</Form.Text> 
                            
