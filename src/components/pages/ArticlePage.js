@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import ArticlesList from '../components/ArticlesList';
-import CommentsList from '../components/CommentsList';
-import UpvotesSection from '../components/UpvotesSection';
-import AddCommentForm from '../components/AddCommentForm';
+import ArticlesList from '../Forms/ArticlesList';
+import CommentsList from '../Forms/CommentsList';
+import UpvotesSection from '../Forms/UpvotesSection';
+import AddCommentForm from '../Forms/AddCommentForm';
 import NotFoundPage from './NotFoundPage';
-import articleContent from './article-content';
+import articleContent from './Data/article-content';
 
 const ArticlePage = ({ match }) => {
     const name = match.params.name;

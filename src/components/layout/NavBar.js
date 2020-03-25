@@ -19,7 +19,7 @@ const NavBar = () => (
 					<li className="nav-link"><Link to="/articles-list">Articles</Link></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li className="nav-link"><Link to="/">Sign Up</Link></li>
+					<li className="nav-link"><Link to="/staff">Staff</Link></li>
 					<li className="nav-link"><Link to="/myinfo">Login</Link></li>
 				</ul>
 			</div>

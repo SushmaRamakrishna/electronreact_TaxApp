@@ -1,7 +1,7 @@
 import React  from "react"
-import UserLoginForm from '../components/UserLoginForm'
+import UserLoginForm  from './components/SignUpForm'
 
-const MyInfo = ( { match }) => {
+const SignUp = ( { match }) => {
     const name = "Federal-Income-Tax";
     
     return ( 
@@ -14,4 +14,4 @@ const MyInfo = ( { match }) => {
 }
 
 
-export default MyInfo;
+export default SignUp

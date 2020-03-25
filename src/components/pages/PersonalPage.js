@@ -1,5 +1,5 @@
 import React from 'react';
-import PreviousTaxChoice from '../components/PreviousTaxChoice';
+import PreviousTaxChoice from '../Forms/PreviousTaxChoice';
 
 const Personal = () => {
     

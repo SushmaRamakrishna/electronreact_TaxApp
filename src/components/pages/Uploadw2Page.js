@@ -1,5 +1,5 @@
 import React, {useState, useEffect } from "react"
-import Uploadw2File from '../components/UploadW2Form';
+import Uploadw2File from '../Forms/UploadW2Form';
 
 const Uploadw2 = ({ match }) => {
   const name = match.params.name;

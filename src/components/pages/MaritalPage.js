@@ -1,5 +1,5 @@
 import React  from "react"
-import MaritalStatus from '../components/MaritalStatus'
+import MaritalStatus from '../Forms/MaritalStatus'
 
 const Marital = ( ) => {
     const name = "Federal-Income-Tax";
